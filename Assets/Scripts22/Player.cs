@@ -9,7 +9,7 @@ namespace Golf
     {
         public Transform stick;
         private bool m_isDown = false;
-        public float range = 50f;
+        public float range = -50f;
         public float speed = 1000f;
         public float power = 20f;
         public Transform helper;
@@ -18,8 +18,6 @@ namespace Golf
         private void Update()
         {
             m_lastPosition = helper.position;
-
-            m_isDown = Input.GetMouseButton(0);
 
             Quaternion rot = stick.localRotation;
 

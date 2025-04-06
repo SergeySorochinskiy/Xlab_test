@@ -1630,7 +1630,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218792717}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff5f977941084cc4ca20cd1d37e39fb1, type: 3}
   m_Name: 
@@ -6216,7 +6216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 218792717}
+  m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &786035642
@@ -8933,8 +8933,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067937073}
-  m_LocalRotation: {x: 0.001028987, y: -0.99658346, z: 0.08124336, w: -0.0148249045}
-  m_LocalPosition: {x: 77.04976, y: 23.221329, z: 64.36983}
+  m_LocalRotation: {x: 0.2869813, y: 0.34377727, z: -0.113716766, w: 0.8868638}
+  m_LocalPosition: {x: 76.60005, y: 24.141365, z: 61.09044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9603,13 +9603,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 3
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 218792718}
           m_TargetAssemblyTypeName: Golf.PlayerContr, Assembly-CSharp
-          m_MethodName: OnUp
+          m_MethodName: OnDown
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -9619,13 +9619,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 218792718}
           m_TargetAssemblyTypeName: Golf.PlayerContr, Assembly-CSharp
-          m_MethodName: OnDown
+          m_MethodName: OnUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -10055,7 +10055,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213235991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.76, y: 22.361, z: 62.456}
+  m_LocalPosition: {x: 78.237, y: 22.908, z: 62.334}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23640,8 +23640,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2916151948392805703}
-  m_LocalRotation: {x: -0, y: 0.810502, z: -0, w: -0.5857359}
-  m_LocalPosition: {x: 77.938, y: 21.779, z: 62.524616}
+  m_LocalRotation: {x: -0, y: 0.67911303, z: -0, w: 0.73403376}
+  m_LocalPosition: {x: 76.976, y: 21.779, z: 63.123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23651,7 +23651,7 @@ Transform:
   - {fileID: 55866774}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 251.70999, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 85.549, z: 0}
 --- !u!1 &2916151948392805703
 GameObject:
   m_ObjectHideFlags: 0
